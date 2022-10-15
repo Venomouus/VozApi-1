@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'VozApi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ABED1687423A4EAC9497114AAD3AECAE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4B4767A99EE94CB38DF927A723D6EFD5 }}
           package: '*.jar'
