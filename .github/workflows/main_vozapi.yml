@@ -42,8 +42,6 @@ jobs:
         with:
           name: java-app
 
-      - name: Azure Login
-        uses: Azure/login@v1
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
